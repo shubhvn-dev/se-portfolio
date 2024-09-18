@@ -1,0 +1,110 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cv</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/shubhan.png' %}">
+					<hr>
+					<h4>Hey! I'm Shubhan.</h4>
+					<p>I love coding, doing research and collaborating</p>
+
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>My Experiences</h4>
+					<hr>
+					<p><b>Research Intern</b> - <i>S.P. Jain Institute of Management and Research.</i></p>
+					<ul>
+					<li>Compiled a database of 800+ IPOs, tracking metrics like volume, IPO type, offerings and issue expenses.</li>
+					<li>Refined a scraper for final prospectuses, boosting data collection efficiency by 60% and ensuring integrity.</li>
+					<li>Streamlined reporting with remote procedure based automated data fetching, cutting manual compilation time by 30% and improving data processing.</li>
+					</ul>
+
+					<p><b>Data Analytics Intern</b> - <i>Aeon Digital Solutions.</i></p>
+					<ul>
+					<li>Computed weekly insights from 7 social media channels for analytics and designed Tableau dashboards
+						enhancing decision-making processes and measuring campaign impact.</li>
+					<li>Developed outlier detection methods, minimizing outliers by 20% for improved analysis accuracy.</li>
+					<li>Maximized data integrity by reducing missing values from 8% to 2% and removing 150+ duplicates.</li>
+					</ul>
+
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Projects</h5>
+					<hr>
+					<ul>
+						<li><b>LogoWiz</b>: Created GANs (Deep Convolutional GAN and Wasserstein Loss GAN) to generate logos, trained on
+7000+ images. Automated preprocessing, reducing time by 30%.</li>
+						<li><b>EchoEmote</b>: Built a speech sentiment model using MFCC (Librosa), CNNs, and Transformers. Implemented data augmentation to increase accuracy to 71%.</li>
+						<li><b>FormMaster</b>: Developed an exercise pose analyzer using a CNN model integrated with LSTM layers for
+sequential pose data using Keras, PyTorch, and FFmpeg, achieving 88.26% accuracy.</li>
+						<li><b>CropInsure</b>: Innovated a decentralized agro-insurance platform with Node.js, Metamask, Solidity, IPFS, and
+Ethereum. Won the StartBucks Ideation Challenge.</li>
+					</ul>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<ul>
+						<li><b>Languages/Databases</b> - Java, JavaScript, Python, C++, MySQL, Oracle DB, PostgresSQL, MongoDB
+						<li><b>Frameworks/Tools</b> - HTML5, CSS, React, NodeJS, Django, Git, Docker, Kafka, OpenCV, Pytorch</li>
+						<li><b>Additional Skills</b> - Agile, SDLC, AWS, Kubernetes, Linux, Redis, Machine Learning, Big Data</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+					<p>I can learn just about anything by starting with a working product and tearing it apart. I break the code at crucial points to understand why things work the way they do, and then rebuild from scratch—ugly, but functional. Documentation is more of a reference tool, but hands-on dissection is where the real learning happens</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+				<p>As an international student at NYU, my short-term goals revolve around adapting to the academic rigor while immersing myself in the vibrant culture of both the university and New York City. I aim to excel in my coursework, especially in mastering advanced software engineering concepts. Networking with peers and professionals in the tech industry is another priority, as I want to gain hands-on experience through internships or collaborative projects. Additionally, I’m focused on enhancing my technical skills and contributing to meaningful projects that blend innovation with practical applications.</p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
